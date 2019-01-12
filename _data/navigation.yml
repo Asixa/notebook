@@ -10,5 +10,7 @@ main:
   #   url: /talks/
   - title: "Gallery"
     url: /Gallery/
+    - title: "Notes"
+    url: /collection-archive/
   - title: "About"
     url: /about/

@@ -4,7 +4,7 @@ layout: splash
 permalink: /projects/
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/Header1.jpg
+  overlay_image: /assets/images/Header.jpg
   caption: 'Rendered with EDXRay'
 excerpt: 'Computer Graphics and Deep Learning'
 feature_row1:

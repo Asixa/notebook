@@ -1,7 +1,7 @@
 ---
 title: "Behind the Pixels"
 layout: splash
-permalink: /photography/
+permalink: /Gallery/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/Header1.jpg

@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Behind the Pixels"
+title                    : "Asixa's Notebook"
 title_separator          : "-"
-name                     : "Edward Liu's Blog"
-description              : "Computer Graphics and Deep Learning"
+name                     : "Asixa's Blog"
+description              : "Computer Science Learning Notebook"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "edliu1105"
+  username               : &twitter ""
 facebook:
   username               :
   app_id                 :
@@ -77,11 +77,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Edward Liu"
-  avatar           : "/assets/images/AuthorProfile1.png"
-  bio              : "I enjoy writing code that generate beautiful pixels. I also love building intelligent softwares that can understand images."
-  location         : "Bay Area, CA"
-  email            : "shiqiu1105@gmail.com"
+  name             : "Xingyu Chen"
+  avatar           : "/assets/images/AuthorProfile1.jpg"
+  bio              : "Freshman in Computer Science
+University at Buffalo, Buffalo, NY
+I am an undergraduate researcher in the 
+ESC (Embedded Sensing and Computing) Lab 
+under the direction of Prof. Wenyao Xu."
+  location         : "Buffalo, NY"
+  email            : "xchen252@buffalo.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +93,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "behindthepixels"
+  github           : "Asixa"
   google_plus      :
   keybase          :
   instagram        :
@@ -100,7 +104,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "edliu1105"
+  twitter          :
   vine             :
   weibo            :
   xing             :

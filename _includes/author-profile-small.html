@@ -1,0 +1,30 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+<div class="sidebar__small">
+<div itemscope itemtype="http://schema.org/Person">
+
+  {% if author.avatar %}
+    <div class="author__avatar__small">
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+      {% else %}
+        <img src="{{ author.avatar | absolute_url }}" class="author__avatar__small" alt="{{ author.name }}" itemprop="image">
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="author__content__small">
+    <h3 class="author__name__small" itemprop="name">{{ author.name }}</h3>
+    {% if author.bio %}
+      <p class="author__bio__small" itemprop="description">
+        {{ author.bio }}
+      </p>
+    {% endif %}
+  </div>
+  
+</div>
+</div>

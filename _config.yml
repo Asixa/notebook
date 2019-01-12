@@ -20,7 +20,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : behindthepixels
+    shortname            : "ANotebook"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -80,10 +80,7 @@ author:
   name             : "Xingyu Chen"
   avatar           : "/assets/images/AuthorProfile1.jpg"
   bio              : "Freshman in Computer Science
-University at Buffalo, Buffalo, NY
-I am an undergraduate researcher in the 
-ESC (Embedded Sensing and Computing) Lab 
-under the direction of Prof. Wenyao Xu."
+University at Buffalo"
   location         : "Buffalo, NY"
   email            : "xchen252@buffalo.edu"
   uri              :

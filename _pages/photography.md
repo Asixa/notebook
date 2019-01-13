@@ -64,10 +64,6 @@ gallery:
     
     # - url: /assets/images/ALight/allery/Picture (1).png
     # image_path: /assets/images/ALight/allery/Picture (1).png
-    
-
----
-
 ---
 
 {% include gallery caption="" %}

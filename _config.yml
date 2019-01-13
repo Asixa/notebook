@@ -276,5 +276,5 @@ collections:
     output: true
     permalink: /:collection/:path/
   subnotes:
-    output: false
+    output: true
     permalink: /:collection/:path/

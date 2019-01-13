@@ -2,7 +2,7 @@
 title: "Concepts of Programing Languages"
 excerpt: "Reading Notes"
 header:
-  teaser: /assets/images/books/ConceptsOfProgramingLangauges.jpg
+  teaser: /assets/images/books/ConceptsOfProgramingLangauges.png
 exclude: false
 
 sidebar:

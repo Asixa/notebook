@@ -2,7 +2,7 @@
 title: "Chapter 1 Preliminaries"
 excerpt: ""
 header:
-  teaser: /assets/images/books/ConceptsOfProgramingLangauges.jpg
+  teaser: /assets/images/books/ConceptsOfProgramingLangauges.png
 exclude: true
 
 sidebar:

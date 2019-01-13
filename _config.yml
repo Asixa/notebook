@@ -275,6 +275,3 @@ collections:
   notes:
     output: true
     permalink: /:collection/:path/
-  subnotes:
-    output: true
-    permalink: /:collection/:path/

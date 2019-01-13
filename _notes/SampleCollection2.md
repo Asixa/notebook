@@ -3,7 +3,7 @@ title: "Sample Collection2"
 excerpt: "Sample Collection"
 header:
   image: /assets/images/Header.jpg
-
+exclude: true
 
 sidebar:
   nav: "SampleCollection"

@@ -28,7 +28,7 @@ SampleCollection:
   - title: Customization
 
 #Concepts of Programming Languages
-Book_CoPL:
+BookCoPL:
   - title: Introduction
     children:
       - title: "Introduction"

@@ -6,7 +6,7 @@ header:
 exclude: false
 
 sidebar:
-  nav: "Book_CoPL"
+  nav: "BookCoPL"
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"

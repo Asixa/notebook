@@ -2,11 +2,11 @@
 title: "Chapter 1 Preliminaries"
 excerpt: ""
 header:
-  teaser: /assets/images/books/ConceptsOfProgramingLangauges.jpg
+  teaser: /assets/images/books/ConceptsOfProgramingLangauges.png
 exclude: true
 
 sidebar:
-  nav: "Book_CoPL"
+  nav: "BookCoPL"
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"

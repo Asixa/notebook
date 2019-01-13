@@ -23,5 +23,5 @@ SampleCollection:
       - title: "Page1"
         url: /portfolio/SampleCollection/
       - title: "Page2"
-        url: /portfolio/SampleCollection/
+        url: /HelloWorld/
   - title: Customization

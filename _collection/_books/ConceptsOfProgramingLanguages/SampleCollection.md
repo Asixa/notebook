@@ -1,12 +1,12 @@
 ---
-title: "Chapter 1 Preliminaries"
-excerpt: ""
+title: "Sample Collection"
+excerpt: "Sample Collection"
 header:
-  teaser: /assets/images/books/ConceptsOfProgramingLangauges.jpg
-exclude: true
+  teaser: /assets/images/Header.jpg
+exclude: false
 
 sidebar:
-  nav: "Book_CoPL"
+  nav: "SampleCollection"
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"

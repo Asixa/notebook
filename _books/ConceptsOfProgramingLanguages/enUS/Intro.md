@@ -1,12 +1,12 @@
 ---
-title: "Chapter 1 Preliminaries"
-excerpt: ""
+title: "Concepts of Programing Languages"
+excerpt: "Reading Notes"
 header:
   teaser: /assets/images/books/ConceptsOfProgramingLangauges.png
-exclude: true
+exclude: false
 
 sidebar:
-  nav: "BookCoPL"
+  nav: "Books_CoPL_enUS"
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"
@@ -19,6 +19,9 @@ toc: true
 # toc_icon: "cog"
 # toc_sticky: true
 ---
+
+[简体中文]("/books/ConceptsOfProgramingLanguages/zhCN/Intro/"){: .btn .btn--info}
+
 {% include toc icon="cog" title="My Table of Contents" %}
 ## Title1
 Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.

@@ -28,12 +28,22 @@ SampleCollection:
   - title: Customization
 
 #Concepts of Programming Languages
-BookCoPL:
+Books_CoPL_enUS:
   - title: Introduction
     children:
       - title: "Introduction"
-        url: /books/ConceptsOfProgramingLanguages/Intro/
+        url: /books/ConceptsOfProgramingLanguages/enUS/Intro/
   - title: Chapter1 Preliminaries
     children:
       - title: "ReadingNotes"
-        url: /books/ConceptsOfProgramingLanguages/Chapter1/
+        url: /books/ConceptsOfProgramingLanguages/enUS//Chapter1/
+
+Books_CoPL_zhCN:
+  - title: 序
+    children:
+      - title: "读者序"
+        url: /books/ConceptsOfProgramingLanguages/zhCN/Intro/
+  - title: 第一章 序章
+    children:
+      - title: "笔记"
+        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1/

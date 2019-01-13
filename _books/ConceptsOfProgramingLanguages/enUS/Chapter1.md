@@ -1,12 +1,10 @@
 ---
-title: "Concepts of Programing Languages"
-excerpt: "Reading Notes"
-header:
-  teaser: /assets/images/books/ConceptsOfProgramingLangauges.png
-exclude: false
+title: "Chapter 1 Preliminaries"
+excerpt: ""
+exclude: true
 
 sidebar:
-  nav: "BookCoPL"
+  nav: "Books_CoPL_enUS"
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"

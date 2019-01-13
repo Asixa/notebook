@@ -1,38 +1,39 @@
 ---
-title: "Behind the Pixels"
+title: "Asixa's Workshop"
 layout: splash
 permalink: /projects/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/Header.jpg
-  caption: 'Rendered with EDXRay'
-excerpt: 'Computer Graphics and Deep Learning'
+  caption: 'Rendered with ALight'
+excerpt: 'Comouter Science Notebook'
 feature_row1:
-  - image_path: /assets/images/edxray/San Miguel 2nd Fl.jpg
-    title: "EDXRay"
-    excerpt: 'A physically based renderer that features many state of the art algorithms in light transport simulation published in recent years.'
-    url: "http://behindthepixels.io/EDXRay/"
+  - image_path: https://xingyuchen.me/images/ALight2.png
+    title: "ALight-Ray"
+    excerpt: 'A physical based offline path tracking renderer for personal research purpose.'
+    url: "https://xingyuchen.me/ALight/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
 feature_row2:
-  - image_path: /assets/images/edxnet/coffee_picaso_transfer.jpg
-    title: "EDXNet"
-    excerpt: 'A deep learning framework with static computational graph and auto-diff written in C++. It can be used for a number of interesting tasks such as image recognition and style transfer.'
-    url: "http://behindthepixels.io/EDXNet/"
+  - image_path: https://xingyuchen.me/images/ALight-Raster.png
+    title: "ALight-Ray"
+    excerpt: 'A realtime rasterizer with programmable rendering pipeline for personal research purpose.'
+    url: "https://xingyuchen.me/ALight/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
+
 feature_row3:
-  - image_path: /assets/images/edxray/Splash .jpg
-    title: "EDXFluids"
-    excerpt: 'A fully featured fluid simulator. It implements several popular simulation algorithms like PIC/FLIP. Both liquid and smoke are supported.'
-    url: "http://behindthepixels.io/EDXFluids/"
+  - image_path: https://xingyuchen.me/images/SteamMutiplayer.png
+    title: "Unity - Steam Networking system"
+    excerpt: 'A low level networking framework for Unity Engine to achieve multiplayer through Steam P2P network services.'
+    url: "https://xingyuchen.me/Steam-Multiplayer-for-Unity"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
 feature_row4:
-  - image_path: /assets/images/edxray/edxraster.jpg
-    title: "EDXRaster"
-    excerpt: 'A highly optimized software renderer using rasterization. All the common stages in modern graphics pipeline are implemented with C++ and SSE.'
-    url: "http://behindthepixels.io/EDXRaster/"
+  - image_path: https://xingyuchen.me/images/NodeEditor.png
+    title: "NodeEditor"
+    excerpt: 'A configurable Windows Presentation Foundation component for node editing.'
+    url: ""
     btn_label: "Learn More"
     btn_class: "btn--inverse"
 ---

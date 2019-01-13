@@ -74,12 +74,14 @@ analytics:
   google:
     tracking_id          : "UA-132051884-1"
 
+# AD
+google_adsense: ca-pub-0000000000000000
 
 # Site Author
 author:
   name             : "Xingyu Chen"
   avatar           : "/assets/images/AuthorProfile1.jpg"
-  bio              : "Freshman in Computer Science\n
+  bio              : "Freshman in Computer Science at\n
 University at Buffalo"
   location         : "Buffalo, NY"
   email            : "xchen252@buffalo.edu"

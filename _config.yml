@@ -243,9 +243,8 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: false
+      read_time: true
       comments: true
-      share: true
       related: true
   # _pages
   - scope:
@@ -261,26 +260,26 @@ defaults:
       type: notes
     values:
       layout: single
+      read_time: true
       author_profile: false
-      share: true
   
     # _notes
-  - classes:
+  - scope:
       path: "/_collection"
-      type: notes
+      type: classes
     values:
       layout: single
       author_profile: false
-      share: true
+      read_time: true
   
     # _notes
-  - books:
+  - scope:
       path: "/_collection"
-      type: notes
+      type: books
     values:
       layout: single
       author_profile: false
-      share: true
+      read_time: true
 
 
 collections:

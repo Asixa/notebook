@@ -17,7 +17,7 @@ main:
     url: http://xingyuchen.me
 
 
-    #Sample Collection
+#Sample Collection
 SampleCollection:
   - title: Getting Started
     children:
@@ -26,3 +26,13 @@ SampleCollection:
       - title: "Page2"
         url: /notes/SampleCollection2/
   - title: Customization
+
+#Concepts of Programming Languages
+Book_CoPL:
+  - title: Introduction
+    children:
+      - title: "Introduction"
+        url: /collection/books/ConceptsOfProgramingLanguages/Intro/
+  - title: Chapter1 Preliminaries
+      - title: "ReadingNotes"
+        url: /collection/books/ConceptsOfProgramingLanguages/Chapter1/

@@ -1,12 +1,13 @@
 ---
-title: "Sample Collection"
+title: "Sample Collection2"
 excerpt: "Sample Collection"
 header:
-  teaser: /assets/images/Header.jpg
-exclude: false
+  teaser: /assets/images/books/ConceptsOfProgramingLangauges.jpg
+exclude: true
 
 sidebar:
-  nav: "SampleCollection"
+  image: /assets/images/books/ConceptsOfProgramingLangauges.jpg
+  nav: "Book_CoPL"
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"
@@ -31,3 +32,4 @@ Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Goog
 ## Title2
 
 hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+{% include nav_list nav="foo" %}

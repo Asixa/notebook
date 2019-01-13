@@ -265,7 +265,7 @@ defaults:
   
     # _notes
   - scope:
-      path: "/collection/"
+      path: ""
       type: classes
     values:
       layout: single
@@ -274,7 +274,7 @@ defaults:
   
     # _notes
   - scope:
-      path: "/collection/"
+      path: ""
       type: books
     values:
       layout: single

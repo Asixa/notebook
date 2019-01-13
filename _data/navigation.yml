@@ -23,5 +23,5 @@ SampleCollection:
       - title: "Page1"
         url: /notes/SampleCollection/
       - title: "Page2"
-        url: /sub_notes/SampleCollection2/
+        url: /subnotes/SampleCollection2/
   - title: Customization

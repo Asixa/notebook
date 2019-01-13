@@ -2,18 +2,19 @@
 main:
   - title: "Post"
     url: /post/
+  - title: "Notes"
+    url: /collection-archive/
   - title: "Projects"
     url: /projects/
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
   # - title: "Talks"
   #   url: /talks/
   - title: "Gallery"
     url: /Gallery/
-  - title: "Notes"
-    url: /collection-archive/
+
   - title: "About"
-    url: /about/
+    url: http://xingyuchen.me
 
 
     #Sample Collection

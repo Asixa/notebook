@@ -14,17 +14,17 @@ tags:
 这几天将之前旧的Onenote笔记整理完大概也就要开学了，等我开学的以后会在我的博客记录我大部分大学课程的笔记，不分专业，无论是计算机课程，数学课程还是金融课程。这些主要是为了跟我大学的朋友们一起学习用的。
 之后也会在这里更新读书笔记，感觉记笔记能够有更深的理解呢。
 ### 书单
-- #### 《Programming Language Concepts》
+- ### 《Programming Language Concepts》
 
 	这本书是我在实验室的书架上发现的，咸鱼得水。实验室还有很多别的书有待发掘。
-- #### 《Compilation Principle》编译原理
+- ### 《Compilation Principle》编译原理
 
 	这本书我大概已经涉猎了一边了，但... 只是涉猎了一边，不如抽空再记笔记精读一波。
 	而且这本书是CSE443 编译器课的推荐课外读物，也算是正业了。
-- #### 《Introduction to Algorithm (CLRS)》算法导论
+- ### 《Introduction to Algorithm (CLRS)》算法导论
 
 	去年说要读到现在也只读了不到五十页，虽然感觉日常算法无压力但是还是听不懂搞OI那帮人整天说的什么。为了CSE250这门课躺A，还是继续读吧。
-- #### 《Physically Based Rendering：From Theory to Implementation》(PBRT) 
+- ### 《Physically Based Rendering：From Theory to Implementation》(PBRT) 
 
 	表面分布式函数啊？已经在推了.... 但是一直不知道双向次表面函数的条件处理怎么搞，原paper似乎也没说清楚的样子?（或是我没读懂）
 	
@@ -33,7 +33,7 @@ tags:
 {: .notice--danger}
 
 	
-- #### 《Real-time Rendering (RTR)》
+- ### 《Real-time Rendering (RTR)》
 
 	第四版的纸质太烂了，先看PDF吧。实时光栅似乎比光线追踪麻烦一点，要求速度。不想光线追踪那种“等就完事了”。所以为什么 方某人的渲染器帧数一直比我的快。为什么动态编译的着色器比我内置的着色器还快...umm
 

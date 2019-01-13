@@ -10,7 +10,7 @@ sidebar:
 
 toc: true
 ---
-[English]("/books/ConceptsOfProgramingLanguages/enUS/Intro/"){: .btn .btn--info}
+[English](../../enUS/Intro/){: .btn .btn--info .btn--x-large}
 
 ## 读者序
 `Concepts of Programming Languages describes the fundamental concepts of programming languages by presenting design issues, examining design choices, and critically comparing design alternatives without being language specific. This is an ideal text for students taking a comparative programming languages course because it allows those with the ability to program to learn how to choose appropriate languages for certain tasks, increase their abilities to learn new languages, and understand the significance of implementation.`

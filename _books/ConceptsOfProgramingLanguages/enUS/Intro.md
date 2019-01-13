@@ -20,7 +20,7 @@ toc: true
 # toc_sticky: true
 ---
 
-[简体中文]("/books/ConceptsOfProgramingLanguages/zhCN/Intro/"){: .btn .btn--info}
+[简体中文]("../../zhCN/Intro/"){: .btn .btn--info .btn--x-large}
 
 {% include toc icon="cog" title="My Table of Contents" %}
 ## Title1

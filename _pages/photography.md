@@ -38,7 +38,7 @@ gallery:
     title: ""
 
   - url: /assets/images/ALight/Gallery/Picture (6).png
-    image_path: /assets/images/ALight/Gallery/Picture (6.png
+    image_path: /assets/images/ALight/Gallery/Picture (6).png
     alt: ""
     title: ""
 

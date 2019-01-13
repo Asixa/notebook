@@ -3,7 +3,7 @@ title: "C"
 excerpt: "C"
 header:
   image: /assets/images/Header.jpg
-
+ image: /assets/images/Header.jpg
 
 sidebar:
   nav: ""

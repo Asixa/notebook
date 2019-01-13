@@ -34,5 +34,6 @@ Book_CoPL:
       - title: "Introduction"
         url: /collection/books/ConceptsOfProgramingLanguages/Intro/
   - title: Chapter1 Preliminaries
+    children:
       - title: "ReadingNotes"
         url: /collection/books/ConceptsOfProgramingLanguages/Chapter1/

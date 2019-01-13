@@ -1,6 +1,6 @@
 ---
-title: "Sample Collection"
-excerpt: "Sample Collection"
+title: "Concepts of Programing Languages"
+excerpt: "Reading Notes"
 header:
   teaser: /assets/images/books/ConceptsOfProgramingLangauges.jpg
 exclude: false

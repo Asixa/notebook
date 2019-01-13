@@ -21,7 +21,7 @@ SampleCollection:
   - title: Getting Started
     children:
       - title: "Page1"
-        url: /portfolio/SampleCollection/
+        url: /notes/SampleCollection/
       - title: "Page2"
-        url: /portfolio/SampleCollection2/
+        url: /sub_notes/SampleCollection2/
   - title: Customization

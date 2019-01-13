@@ -263,6 +263,9 @@ defaults:
       share: true
 
 collections:
-  portfolio:
+  notes:
     output: true
+    permalink: /:collection/:path/
+  sub_notes:
+    output: false
     permalink: /:collection/:path/

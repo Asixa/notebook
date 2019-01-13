@@ -17,4 +17,4 @@ toc: true
 # toc_icon: "cog"
 # toc_sticky: true
 ---
-{% include toc icon="cog" title="My Table of Contents" %}
+{% include toc icon="cog" title="Table of Contents" %}

@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter ""
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -243,7 +243,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
       comments: true
       related: true
   # _pages
@@ -260,7 +259,6 @@ defaults:
       type: notes
     values:
       layout: single
-      read_time: true
       author_profile: false
   
     # _notes
@@ -270,7 +268,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
   
     # _notes
   - scope:
@@ -279,7 +276,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
 
 
 collections:

@@ -47,3 +47,26 @@ Books_CoPL_zhCN:
     children:
       - title: "笔记"
         url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1/
+
+
+
+#Raytracing
+Notes_RT_enUS:
+  - title: Introduction
+    children:
+      - title: "Introduction"
+        url: /books/ConceptsOfProgramingLanguages/enUS/Intro/
+  - title: Chapter1 Preliminaries
+    children:
+      - title: "ReadingNotes"
+        url: /books/ConceptsOfProgramingLanguages/enUS//Chapter1/
+
+Notes_RT_zhCN:
+  - title: 序
+    children:
+      - title: "读者序"
+        url: /books/ConceptsOfProgramingLanguages/zhCN/Intro/
+  - title: 第一章 序章
+    children:
+      - title: "笔记"
+        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1/

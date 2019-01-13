@@ -5,7 +5,7 @@ exclude: true
 sidebar:
   nav: "Books_CoPL_zhCN"
 ---
-{% include toc icon="cog" title="My Table of Contents" %}
+{% include toc icon="cog" title="本章目录" %}
 
 ## 正交性 Orthogonality
  

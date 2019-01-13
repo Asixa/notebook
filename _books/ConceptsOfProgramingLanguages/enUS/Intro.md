@@ -22,4 +22,4 @@ toc: true
 
 [简体中文](../../zhCN/Intro/){: .btn .btn--info .btn--x-large}
 
-{% include toc icon="cog" title="My Table of Contents" %}
+{% include toc icon="cog" title="Table of Contents" %}

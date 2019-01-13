@@ -1,7 +1,7 @@
 ---
 title: "这是一个没有人看的博客"
 header:
-  teaser: "/assets/images/咸鱼.png"
+  teaser: /assets/images/fish.png
 tags:
   - Untagged
   - Chinese

@@ -1,6 +1,6 @@
 ---
-title: "Sample Collection"
-excerpt: "Sample Collection"
+title: "Sample Collection2"
+excerpt: "Sample Collection2"
 header:
   image: /assets/images/Header.jpg
   teaser: /assets/images/Header.jpg

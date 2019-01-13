@@ -11,7 +11,7 @@ title                    : "Asixa's Notebook"
 title_separator          : "-"
 name                     : "Asixa's Blog"
 description              : "Computer Science Learning Notebook"
-url                      : "https://xingyuchen.me/Blog"
+url                      : "https://xingyuchen.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # "/assets/images/edxray/TeapotLens1.0.jpg"
@@ -70,9 +70,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-132051884-1"
 
 
 # Site Author

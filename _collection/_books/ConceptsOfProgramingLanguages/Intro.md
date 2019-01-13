@@ -6,7 +6,6 @@ header:
 exclude: false
 
 sidebar:
-  image: /assets/images/books/ConceptsOfProgramingLangauges.jpg
   nav: "Book_CoPL"
   # - title: "Role"
   #   image: http://placehold.it/350x250

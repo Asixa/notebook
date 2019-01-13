@@ -1,12 +1,12 @@
 ---
-title: "Sample Collection"
-excerpt: "Sample Collection"
+title: "Concepts of Programing Languages"
+excerpt: "Reading Notes"
 header:
-  teaser: /assets/images/Header.jpg
+  teaser: /assets/images/books/ConceptsOfProgramingLangauges.jpg
 exclude: false
 
 sidebar:
-  nav: "SampleCollection"
+  nav: "Book_CoPL"
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"

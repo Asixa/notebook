@@ -3,7 +3,6 @@ title: "Sample Collection"
 excerpt: "Sample Collection"
 header:
   image: /assets/images/Header.jpg
-  teaser: /assets/images/Header.jpg
 
 
 sidebar:

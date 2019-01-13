@@ -1,12 +1,12 @@
 ---
-title: "Sample Collection2"
-excerpt: "Sample Collection2"
+title: "Sample CollectionB"
+excerpt: "Sample CollectionB"
 header:
   image: /assets/images/Header.jpg
 
 
 sidebar:
-  nav: "SampleCollection"
+  nav: ""
   # - title: "Role"
   #   image: http://placehold.it/350x250
   #   image_alt: "logo"

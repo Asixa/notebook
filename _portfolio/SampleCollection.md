@@ -7,8 +7,6 @@ header:
 
 
 toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
 
 sidebar:
   nav: "SampleCollection"

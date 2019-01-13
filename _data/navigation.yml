@@ -14,3 +14,12 @@ main:
     url: /collection-archive/
   - title: "About"
     url: /about/
+
+
+    #Sample Collection
+SampleCollection:
+  - title: Getting Started
+    children:
+      - title: "Page1"
+        url: /portfolio/SampleCollection/
+  - title: Customization

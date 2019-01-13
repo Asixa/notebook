@@ -81,7 +81,7 @@ google_adsense: ca-pub-0000000000000000
 author:
   name             : "Xingyu Chen"
   avatar           : "/assets/images/AuthorProfile1.jpg"
-  bio              : "Freshman in Computer Science at\n
+  bio              : "Freshman in Computer Science,
 University at Buffalo"
   location         : "Buffalo, NY"
   email            : "xchen252@buffalo.edu"
@@ -263,9 +263,33 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  
+    # _notes
+  - classes:
+      path: "/_collection"
+      type: notes
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  
+    # _notes
+  - books:
+      path: "/_collection"
+      type: notes
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 
 collections:
   notes:
+    output: true
+    permalink: /:collection/:path/
+  books:
+    output: true
+    permalink: /:collection/:path/
+  classes:
     output: true
     permalink: /:collection/:path/

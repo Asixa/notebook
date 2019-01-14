@@ -3,7 +3,7 @@ title: "《Concepts of Programing Languages》"
 excerpt: "Reading Notes"
 header:
   teaser: /assets/images/books/ConceptsOfProgramingLangauges.png
-exclude: false
+exclude: true
 
 sidebar:
   nav: "Books_CoPL_enUS"

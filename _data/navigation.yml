@@ -45,8 +45,10 @@ Books_CoPL_zhCN:
         url: /books/ConceptsOfProgramingLanguages/zhCN/Intro/
   - title: 第一章 序章
     children:
-      - title: "笔记"
-        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1/
+      - title: "1.2 编程领域"
+        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1_2/
+      - title: "1.3 语言评估标准 "
+        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1_3/
 
 
 

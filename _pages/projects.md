@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/Header.jpg
   caption: 'Rendered with ALight'
-excerpt: 'Comouter Science Notebook'
+excerpt: ''
 feature_row1:
   - image_path: https://xingyuchen.me/images/ALight2.png
     title: "ALight-Ray"

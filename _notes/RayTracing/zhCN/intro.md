@@ -1,5 +1,5 @@
 ---
-title: "从零写光线追踪渲染器"
+title: "Re:从零开始的光线追踪"
 excerpt: ""
 header:
   teaser: /assets/images/notes/raytracing/cover.jpg

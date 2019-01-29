@@ -87,3 +87,13 @@ Notes_RT_zhCN:
     children:
       - title: "笔记"
         url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1/
+
+#Raytracing
+MTH142:
+  - title: Orientation
+    url: /classes/MTH142/orientation
+
+  - title: Chapter1 Preliminaries
+    children:
+      - title: "Review of u-Subsitution"
+        url: /classes/MTH142/1-28

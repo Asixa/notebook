@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -55,7 +57,7 @@ layout: default
             {% if page.read_time %}
               <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
             {% endif %}
-            {% include advertisements.html %}
+         
           </header>
         {% endunless %}
 
@@ -101,3 +103,5 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+

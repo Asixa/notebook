@@ -93,7 +93,7 @@ MTH142:
   - title: Orientation
     url: /classes/MTH142/orientation
 
-  - title: Chapter1 Preliminaries
+  - title: Week1
     children:
       - title: "Review of u-Subsitution"
         url: /classes/MTH142/1-28

@@ -2,10 +2,10 @@
 main:
   - title: "Post"
     url: /post/
-  - title: "Notes"
-    url: /collection-archive/
-  - title: "Projects"
-    url: /projects/
+  # - title: "Notes"
+  #   url: /collection-archive/
+  # - title: "Projects"
+  #   url: /projects/
   # - title: "Publications"
   #   url: /publications/
   # - title: "Talks"
@@ -26,74 +26,3 @@ SampleCollection:
       - title: "Page2"
         url: /notes/SampleCollection2/
   - title: Customization
-
-#Concepts of Programming Languages
-Books_CoPL_enUS:
-  - title: Introduction
-    children:
-      - title: "Introduction"
-        url: /books/ConceptsOfProgramingLanguages/enUS/Intro/
-  - title: Chapter1 Preliminaries
-    children:
-      - title: "ReadingNotes"
-        url: /books/ConceptsOfProgramingLanguages/enUS//Chapter1/
-
-Books_CoPL_zhCN:
-  - title: 序
-    children:
-      - title: "读者序"
-        url: /books/ConceptsOfProgramingLanguages/zhCN/Intro/
-  - title: 第一章 序章
-    children:
-      - title: "1.2 编程领域"
-        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1_2/
-      - title: "1.3 语言评估标准 "
-        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1_3/
-  - title: 第二章 主流语言进化史
-  - title: 第三章 语法和语义的描述
-  - title: 第四章 命名,绑定，类型检测和作用域
-  - title: 第五章 数据类型
-  - title: 第六章 表达式和赋值语句
-  - title: 第七章 语句层次控制结构
-  - title: 第八章 子程序
-  - title: 第九章 子程序应用
-  - title: 第十章 抽象数据类型
-  - title: 第十一章 并发
-  - title: 第十二章 异常处理
-  - title: 第十三章 函数编程语言
-  - title: 第十四章 逻辑编程语言
-  - title: 第十五章 面向对象编程语言
-
-
-  
-
-#Raytracing
-Notes_RT_enUS:
-  - title: Introduction
-    children:
-      - title: "Introduction"
-        url: /books/ConceptsOfProgramingLanguages/enUS/Intro/
-  - title: Chapter1 Preliminaries
-    children:
-      - title: "ReadingNotes"
-        url: /books/ConceptsOfProgramingLanguages/enUS//Chapter1/
-
-Notes_RT_zhCN:
-  - title: 序
-    children:
-      - title: "读者序"
-        url: /books/ConceptsOfProgramingLanguages/zhCN/Intro/
-  - title: 第一章 序章
-    children:
-      - title: "笔记"
-        url: /books/ConceptsOfProgramingLanguages/zhCN/Chapter1/
-
-#Raytracing
-MTH142:
-  - title: Orientation
-    url: /classes/MTH142/orientation
-
-  - title: Week1
-    children:
-      - title: "Review of u-Subsitution"
-        url: /classes/MTH142/1-28

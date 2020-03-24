@@ -33,6 +33,23 @@ gallery:
     image_path: /assets/images/gallery/nyc/4.jpg
     alt: ""
     title: ""
+ 
+    
+  - url: /assets/images/gallery/nyc/8.jpg
+    image_path: /assets/images/gallery/nyc/8.jpg
+    alt: ""
+    title: ""
+
+
+  - url: /assets/images/gallery/nyc/9.jpg
+    image_path: /assets/images/gallery/nyc/9.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/10.jpg
+    image_path: /assets/images/gallery/nyc/10.jpg
+    alt: ""
+    title: ""
   - url: /assets/images/gallery/nyc/5.jpg
     image_path: /assets/images/gallery/nyc/5.jpg
     alt: ""
@@ -46,29 +63,11 @@ gallery:
     image_path: /assets/images/gallery/nyc/7.jpg
     alt: ""
     title: ""
-    
-  - url: /assets/images/gallery/nyc/8.jpg
-    image_path: /assets/images/gallery/nyc/8.jpg
-    alt: ""
-    title: ""
-
-
-  - url: /assets/images/gallery/nyc/9.jpg
-    image_path: /assets/images/gallery/nyc/9.jpg
-    alt: ""
-    title: ""
-
-    
-  - url: /assets/images/gallery/nyc/10.jpg
-    image_path: /assets/images/gallery/nyc/10.jpg
-    alt: ""
-    title: ""
-
   - url: /assets/images/gallery/nyc/11.jpg
     image_path: /assets/images/gallery/nyc/11.jpg
     alt: ""
     title: ""
 ---
 
-{% include gallery id="gallery" %}
-{% include gallery id="gallery2" %}
+{% include gallery id="gallery" caption="New York City" %}
+{% include gallery id="gallery2" caption="ALight Renderer"%}

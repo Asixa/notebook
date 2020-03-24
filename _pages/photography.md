@@ -140,4 +140,4 @@ gallery:
     # image_path: /assets/images/ALight/Gallery/Picture (1).png
 ---
 
-{% include gallery2 caption="" %}
+{% include gallery2 caption="test" %}

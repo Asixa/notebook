@@ -8,23 +8,23 @@ header:
   caption: 'Rendered with ALight'
 excerpt: ''
 gallery2:
-  - url: /assets/images/gallery/Alight/1.png
-    image_path: /assets/images/gallery/Alight/1.png
-    alt: ""
-    title: ""
-    
-  - url: /assets/images/gallery/Alight/2.png
-    image_path: /assets/images/gallery/Alight/2.png
+  - url: /assets/images/gallery/ALight/1.png
+    image_path: /assets/images/gallery/ALight/1.png
     alt: ""
     title: ""
 
-  - url: /assets/images/gallery/Alight/3.png
-    image_path: /assets/images/gallery/Alight/3.png
+  - url: /assets/images/gallery/ALight/2.png
+    image_path: /assets/images/gallery/ALight/2.png
     alt: ""
     title: ""
 
-  - url: /assets/images/gallery/Alight/4.png
-    image_path: /assets/images/gallery/Alight/4.png
+  - url: /assets/images/gallery/ALight/3.png
+    image_path: /assets/images/gallery/ALight/3.png
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/ALight/4.png
+    image_path: /assets/images/gallery/ALight/4.png
     alt: ""
     title: ""
 
@@ -116,6 +116,12 @@ gallery:
     image_path: /assets/images/gallery/nyc/19.jpg
     alt: ""
     title: ""
+
+  - url: /assets/images/gallery/nyc/20.jpg
+    image_path: /assets/images/gallery/nyc/20.jpg
+    alt: ""
+    title: ""
+    
 
   - url: /assets/images/gallery/nyc/13.jpg
     image_path: /assets/images/gallery/nyc/13.jpg

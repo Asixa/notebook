@@ -3,9 +3,11 @@
 {% else %}
   {% assign gallery = page.gallery %}
 {% endif %}
+
 {% if include.caption %}
     <h2>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</h2>
 {% endif %}
+
 {% if gallery.size == 2 %}
   {% assign gallery_layout = 'half' %}
 {% elsif gallery.size >= 3 %}

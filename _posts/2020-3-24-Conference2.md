@@ -18,7 +18,8 @@ SampleCollection:
 sidebar:
   nav: "SampleCollection"
 toc: true
-exclude: true
+exclude: false
+show: true
 ---
 {% include toc icon="cog" title="Table of Contents" %}
 

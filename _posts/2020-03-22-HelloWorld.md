@@ -5,6 +5,7 @@ header:
 tags:
   - Untagged
 author_profile: false
+show: false
 ---
 Welcome to my blog
 Asixa

@@ -1,5 +1,5 @@
 ---
-title: "Asixa's Gallery"
+title: "Gallery"
 layout: splash
 permalink: /Gallery/
 header:

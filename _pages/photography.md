@@ -27,9 +27,13 @@ gallery2:
     image_path: /assets/images/gallery/ALight/4.png
     alt: ""
     title: ""
+la:
+  - url: /assets/images/gallery/la/1.jpg
+    image_path: /assets/images/gallery/la/1.jpg
+    alt: ""
+    title: ""
 
-
-gallery:
+nyc:
   # - url: /assets/images/photos/Moraine Lake Sunset - HD.jpg
   #   image_path: /assets/images/photos/Moraine Lake Sunset - HD.jpg
   #   alt: "Sunset at Moraine Lake, Banff National Park."
@@ -134,5 +138,6 @@ gallery:
     title: ""
 ---
 
-{% include gallery id="gallery" caption="New York City" %}
+{% include gallery id="nyc" caption="New York City" %}
+{% include gallery id="la" caption="Los Angeles" %}
 {% include gallery id="gallery2" caption="ALight Renderer"%}

@@ -70,4 +70,5 @@ gallery:
     title: ""
 ---
 
-{% include gallery caption="" %}
+{% include gallery id="gallery" %}
+{% include gallery id="gallery2" %}

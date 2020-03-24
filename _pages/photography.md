@@ -12,29 +12,23 @@ gallery2:
     image_path: /assets/images/gallery/ALight/1.png
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/ALight/2.png
     image_path: /assets/images/gallery/ALight/2.png
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/ALight/3.png
     image_path: /assets/images/gallery/ALight/3.png
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/ALight/4.png
     image_path: /assets/images/gallery/ALight/4.png
     alt: ""
     title: ""
-
 gallery:
-
    - url: /assets/images/gallery/nyc/5.jpg
     image_path: /assets/images/gallery/nyc/5.jpg
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/nyc/6.jpg
     image_path: /assets/images/gallery/nyc/6.jpg
     alt: ""
@@ -49,17 +43,14 @@ gallery:
     image_path: /assets/images/gallery/nyc/1.jpg
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/nyc/2.jpg
     image_path: /assets/images/gallery/nyc/2.jpg
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/nyc/3.jpg
     image_path: /assets/images/gallery/nyc/3.jpg
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/nyc/4.jpg
     image_path: /assets/images/gallery/nyc/4.jpg
     alt: ""
@@ -83,7 +74,6 @@ gallery:
     image_path: /assets/images/gallery/nyc/10.jpg
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/nyc/11.jpg
     image_path: /assets/images/gallery/nyc/11.jpg
     alt: ""
@@ -113,17 +103,14 @@ gallery:
     image_path: /assets/images/gallery/nyc/16.jpg
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/nyc/17.jpg
     image_path: /assets/images/gallery/nyc/17.jpg
     alt: ""
     title: ""
-
   - url: /assets/images/gallery/nyc/18.jpg
     image_path: /assets/images/gallery/nyc/18.jpg
     alt: ""
     title: ""
-    
   - url: /assets/images/gallery/nyc/19.jpg
     image_path: /assets/images/gallery/nyc/19.jpg
     alt: ""

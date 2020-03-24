@@ -7,6 +7,11 @@ header:
   overlay_image: /assets/images/Header.jpg
   caption: 'Rendered with ALight'
 excerpt: ''
+gallery2:
+  - url: /assets/images/ALight/Gallery/Picture (1).png
+    image_path: /assets/images/ALight/Gallery/Picture (1).png
+    alt: ""
+    title: ""
 gallery:
   # - url: /assets/images/photos/Moraine Lake Sunset - HD.jpg
   #   image_path: /assets/images/photos/Moraine Lake Sunset - HD.jpg
@@ -135,4 +140,4 @@ gallery:
     # image_path: /assets/images/ALight/Gallery/Picture (1).png
 ---
 
-{% include gallery caption="" %}
+{% include gallery2 caption="" %}

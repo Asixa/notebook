@@ -136,6 +136,10 @@ nyc:
     image_path: /assets/images/gallery/nyc/14.jpg
     alt: ""
     title: ""
+  - url: /assets/images/gallery/nyc/21.jpg
+    image_path: /assets/images/gallery/nyc/21.jpg
+    alt: ""
+    title: ""
 ---
 
 {% include gallery id="nyc" caption="New York City" %}

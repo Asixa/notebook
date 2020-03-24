@@ -12,18 +12,23 @@ gallery2:
     image_path: /assets/images/gallery/Alight/1.png
     alt: ""
     title: ""
+    
   - url: /assets/images/gallery/Alight/2.png
     image_path: /assets/images/gallery/Alight/2.png
     alt: ""
     title: ""
+
   - url: /assets/images/gallery/Alight/3.png
     image_path: /assets/images/gallery/Alight/3.png
     alt: ""
     title: ""
+
   - url: /assets/images/gallery/Alight/4.png
     image_path: /assets/images/gallery/Alight/4.png
     alt: ""
     title: ""
+
+
 gallery:
   # - url: /assets/images/photos/Moraine Lake Sunset - HD.jpg
   #   image_path: /assets/images/photos/Moraine Lake Sunset - HD.jpg
@@ -86,15 +91,6 @@ gallery:
     alt: ""
     title: ""
 
-  - url: /assets/images/gallery/nyc/13.jpg
-    image_path: /assets/images/gallery/nyc/13.jpg
-    alt: ""
-    title: ""
-
-  - url: /assets/images/gallery/nyc/14.jpg
-    image_path: /assets/images/gallery/nyc/14.jpg
-    alt: ""
-    title: ""
 
   - url: /assets/images/gallery/nyc/15.jpg
     image_path: /assets/images/gallery/nyc/15.jpg
@@ -118,6 +114,16 @@ gallery:
 
   - url: /assets/images/gallery/nyc/19.jpg
     image_path: /assets/images/gallery/nyc/19.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/13.jpg
+    image_path: /assets/images/gallery/nyc/13.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/14.jpg
+    image_path: /assets/images/gallery/nyc/14.jpg
     alt: ""
     title: ""
 ---

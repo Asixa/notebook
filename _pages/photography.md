@@ -8,8 +8,20 @@ header:
   caption: 'Rendered with ALight'
 excerpt: ''
 gallery2:
-  - url: /assets/images/ALight/Gallery/Picture (1).png
-    image_path: /assets/images/ALight/Gallery/Picture (1).png
+  - url: /assets/images/gallery/Alight/1.png
+    image_path: /assets/images/gallery/Alight/1.png
+    alt: ""
+    title: ""
+  - url: /assets/images/gallery/Alight/2.png
+    image_path: /assets/images/gallery/Alight/2.png
+    alt: ""
+    title: ""
+  - url: /assets/images/gallery/Alight/3.png
+    image_path: /assets/images/gallery/Alight/3.png
+    alt: ""
+    title: ""
+  - url: /assets/images/gallery/Alight/4.png
+    image_path: /assets/images/gallery/Alight/4.png
     alt: ""
     title: ""
 gallery:
@@ -66,6 +78,46 @@ gallery:
 
   - url: /assets/images/gallery/nyc/11.jpg
     image_path: /assets/images/gallery/nyc/11.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/12.jpg
+    image_path: /assets/images/gallery/nyc/12.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/13.jpg
+    image_path: /assets/images/gallery/nyc/13.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/14.jpg
+    image_path: /assets/images/gallery/nyc/14.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/15.jpg
+    image_path: /assets/images/gallery/nyc/15.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/16.jpg
+    image_path: /assets/images/gallery/nyc/16.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/17.jpg
+    image_path: /assets/images/gallery/nyc/17.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/18.jpg
+    image_path: /assets/images/gallery/nyc/18.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/gallery/nyc/19.jpg
+    image_path: /assets/images/gallery/nyc/19.jpg
     alt: ""
     title: ""
 ---

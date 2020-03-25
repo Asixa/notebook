@@ -4,8 +4,8 @@ layout: splash
 permalink: /Gallery/
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/Header.jpg
-  caption: 'Rendered with ALight'
+  overlay_image: /assets/images/Header-map.jpg
+  caption: '努力在这个世界上留下痕迹'
 excerpt: ''
 gallery2:
   - url: /assets/images/gallery/ALight/1.png

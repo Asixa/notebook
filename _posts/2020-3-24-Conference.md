@@ -1,5 +1,5 @@
 ---
-title: "Comferences"
+title: "Conferences"
 header:
   teaser: "https://cdn-images-1.medium.com/max/2560/1*0KFB17_NGTPB0XWyc4BSgQ.jpeg"
 tags:
@@ -22,10 +22,11 @@ show: true
 ---
 {% include toc icon="cog" title="Table of Contents" %}
 
-# 2020
-test
-# 2019
-test
+# Mobicom
+## 2020
+
+## 2019
+
 
 
 

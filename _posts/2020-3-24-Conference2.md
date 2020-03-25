@@ -1,5 +1,5 @@
 ---
-title: "Hello Blog!"
+title: "Hello Blog! 2"
 header:
   teaser: "https://cdn-images-1.medium.com/max/2560/1*0KFB17_NGTPB0XWyc4BSgQ.jpeg"
 tags:
@@ -18,7 +18,6 @@ SampleCollection:
 sidebar:
   nav: "SampleCollection"
 toc: true
-exclude: false
 show: true
 ---
 {% include toc icon="cog" title="Table of Contents" %}

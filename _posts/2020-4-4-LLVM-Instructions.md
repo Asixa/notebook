@@ -18,7 +18,7 @@ SampleCollection:
 sidebar:
   nav: "SampleCollection"
 toc: true
-show: true
+show: false
 ---
 <center>
 

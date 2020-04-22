@@ -27,9 +27,9 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 class="page__title" itemprop="headline">
+      <!-- <h1 class="page__title" itemprop="headline">
         {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
-      </h1>
+      </h1> -->
       {% if page.excerpt %}
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}

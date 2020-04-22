@@ -1,4 +1,8 @@
+{% if page.local_nav %}
+{% assign navigation = page.navigation %}
+{% else %}
 {% assign navigation = site.data.navigation[include.nav] %}
+{% endif %}
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
@@ -26,6 +30,7 @@
             {% comment %} internal/external URL check {% endcomment %}
             {% if child.url contains "://" %}
               {% assign domain = "" %}
+            
             {% else %}
               {% assign domain = site.url | append: site.baseurl %}
             {% endif %}
@@ -36,8 +41,11 @@
             {% else %}
               {% assign active = "" %}
             {% endif %}
-
+            {% if child.url contains "#" %}
+            <li><a href="{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
+            {% else %}
             <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
         {% endif %}

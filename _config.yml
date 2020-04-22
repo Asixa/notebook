@@ -81,8 +81,7 @@ google_adsense: ca-pub-0000000000000000
 author:
   name             : "Xingyu Chen"
   avatar           : "/assets/images/AuthorProfile1.jpg"
-  bio              : "Freshman in Computer Science,
-University at Buffalo"
+  bio              : "Freshman in Computer Science, University at Buffalo"
   location         : "Buffalo, NY"
   email            : "xchen252@buffalo.edu"
   uri              :
@@ -93,6 +92,7 @@ University at Buffalo"
   facebook         :
   foursquare       :
   github           : "Asixa"
+  zhihu            : "Asixa"
   google_plus      :
   keybase          :
   instagram        :

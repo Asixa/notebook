@@ -5,14 +5,25 @@ header:
   teaser: /assets/images/Header.jpg
 exclude: true
 
+local_nav: true
+navigation:
+  - title: 前言
+    url: /LLVM/
+    children:
+      - title: "类型"
+        url: "#title-11"
+      - title: "Page2"
+        url: /notes/SampleCollection2/
+  - title: 配置LLVM
+  - title: 数据类型
+  - title: 函数
+  - title: 逻辑控制
+  - title: 类与结构体
+  - title: 系统函数
+  - title: 编译
+
 sidebar:
-  nav: "SampleCollection"
-  # - title: "Role"
-  #   image: http://placehold.it/350x250
-  #   image_alt: "logo"
-  #   text: "Designer, Front-End Developer"
-  # - title: "Responsibilities"
-  #   text: "Reuters try PR stupid commenters should isn't a business model"
+  nav: LLVMCollection
 
 toc: true
 # toc_label: "My Table of Contents"

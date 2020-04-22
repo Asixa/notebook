@@ -16,13 +16,3 @@ main:
   - title: "About"
     url: http://xingyuchen.me
 
-
-#Sample Collection
-SampleCollection:
-  - title: Getting Started
-    children:
-      - title: "Page1"
-        url: /notes/SampleCollection/
-      - title: "Page2"
-        url: /notes/SampleCollection2/
-  - title: Customization

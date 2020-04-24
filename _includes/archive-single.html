@@ -15,7 +15,7 @@
   <article class="archive__item " itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
     <div class="archive__item-teaser">
-      <img height="200" src="{{ teaser | relative_url }}" alt="">
+      <img  src="{{ teaser | relative_url }}" alt="">
     </div>
     {% endif %}
 
@@ -23,18 +23,19 @@
   
     <div class="row m-3">
 
-      <img  class="p-left" height="100%" width="150" src="{{ teaser | relative_url }}" alt="">
+      <img  class="p-left" style="width: 30%;height: 30%;object-fit: contain;align-self: center;" src="{{ teaser | relative_url }}" alt="">
       <div class=" p-left">
         <div class="" itemprop="headline">
-
+          
           {% if post.category == "Literature-Review" %}
-          <a href="/{{post.category}}" class="my-tag-item-blue" >{{post.category}}</a><br> 
+          <a href="/{{post.category}}" class="my-tag-item-blue" >{{post.category}}</a>
           {% else if post.category == "code" %}
-          <a href="/{{post.category}}" class="my-tag-item-green" >{{post.category}}</a><br> 
+          <a href="/{{post.category}}" class="my-tag-item-green" >{{post.category}}</a>
           {% else %}
-          <a href="/{{post.category}}" class="my-tag-item-orange" >{{post.category}}</a><br> 
+          <a href="/{{post.category}}" class="my-tag-item-orange" >{{post.category}}</a>
           {% endif %}
-
+          <!-- <p class="page__date "><strong></strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> </strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p> -->
+          <br> 
           {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i
               class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -48,8 +49,7 @@
         {% endif %}
         {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">
           {{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-
-       
+          <p class="page__meta"><i class="far fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %-d, %Y" }}</p>
       </div>
     </div>
     <hr>

@@ -1,0 +1,29 @@
+---
+layout: archive
+permalink: /research/
+title: "research"
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/Header.jpg
+  caption: '顺着象牙塔往上爬'
+excerpt: ''
+
+
+sidebar:
+  title: "Literature Review"
+  nav: computer_science_areas
+---
+
+
+    {% for post in site.posts %}
+      {% if post.show and post.category=="research" %}
+
+        {% if year != written_year %}
+          <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+          {% capture written_year %}{{ year }}{% endcapture %}
+        {% endif %}
+        <div class="post__wrapper">
+          {% include archive-single.html type="post" %}
+        </div>
+      {% endif %}
+    {% endfor %}

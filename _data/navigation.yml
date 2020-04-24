@@ -1,9 +1,8 @@
 # main links
 main:
-  - title: "About"
+  - title: "Resumes"
     url: http://xingyuchen.me
-  # - title: "Blog"
-  #   url: /blog/
+
   # - title: "Notes"
   #   url: /collection-archive/
   # - title: "Projects"
@@ -12,8 +11,15 @@ main:
   #   url: /publications/
   # - title: "Talks"
   #   url: /talks/
+
   - title: "Gallery"
     url: /Gallery/
+  - title: "Research"
+    url: /Research/
+  - title: "Blog"
+    url: /blog/
+  - title: "Code"
+    url: /Code/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
@@ -23,26 +29,32 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-sidebar-sample:
-  - title: "Parent Page A"
+computer_science_areas:
+  - title: "Computer Graphic"
     children:
-      - title: "Child Page A1"
+      - title: "Renderering"
+        children:
+          - title: "Raytracing"
+            url: /
+          - title: "Real-time Rendering"
+            url: /
+      - title: "Geometry"
         url: /
-      - title: "Child Page A2"
+      - title: "Simulation"
         url: /
-      - title: "Child Page A3"
+  - title: "Wireless Sensing"
+    children:
+      - title: "RF/mmWave"
         url: /
-      - title: "Child Page A4"
+  - title: "Smart Health"
+    children:
+      - title: "RF/mmWave"
         url: /
-  - title: "Parent Page B"
+  - title: "Mobile Computing"
     children:
       - title: "Child Page B1"
         url: /
-      - title: "Child Page B2"
-        url: /
-      - title: "Child Page B3"
-        url: /
-      - title: "Child Page B4"
-        url: /
-      - title: "Child Page B5"
+  - title: "Deep Learning"
+    children:
+      - title: "Child Page B1"
         url: /

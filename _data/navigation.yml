@@ -13,13 +13,13 @@ main:
   #   url: /talks/
 
   - title: "Gallery"
-    url: /Gallery/
+    url: /gallery/
   - title: "Research"
-    url: /Research/
+    url: /research/
   - title: "Blog"
     url: /blog/
   - title: "Code"
-    url: /Code/
+    url: /code/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

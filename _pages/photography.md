@@ -1,7 +1,7 @@
 ---
 title: "Gallery"
 layout: splash
-permalink: /Gallery/
+permalink: /gallery/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/Header-map.jpg

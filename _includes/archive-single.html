@@ -18,15 +18,29 @@
       <img height="200" src="{{ teaser | relative_url }}" alt="">
     </div>
     {% endif %}
+
+
+  
     <div class="row m-3">
+
       <img  class="p-left" height="100%" width="150" src="{{ teaser | relative_url }}" alt="">
-      <div class="middlebox p-left">
+      <div class=" p-left">
         <div class="" itemprop="headline">
+
+          {% if post.category == "Literature-Review" %}
+          <a href="/{{post.category}}" class="my-tag-item-blue" >{{post.category}}</a><br> 
+          {% else if post.category == "code" %}
+          <a href="/{{post.category}}" class="my-tag-item-green" >{{post.category}}</a><br> 
+          {% else %}
+          <a href="/{{post.category}}" class="my-tag-item-orange" >{{post.category}}</a><br> 
+          {% endif %}
+
           {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i
               class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
           {% else %}
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+                
+            <a class="my-link" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
           {% endif %}
         </div>
         {% if post.read_time %}
@@ -34,6 +48,8 @@
         {% endif %}
         {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">
           {{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
+       
       </div>
     </div>
     <hr>

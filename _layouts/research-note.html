@@ -36,8 +36,8 @@ layout: default
         </header>
       {% endunless %}
       
-      <p class="page__date "><strong></strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> </strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
-      {% include tag-list_a.html %}
+      <p class="page__date "><strong></strong><i class="fas fa-fw fa-book" aria-hidden="true"></i> </strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{page.info}}</time></p>
+
     
 
       <section class="page__content" itemprop="text">

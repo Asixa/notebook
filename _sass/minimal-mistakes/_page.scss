@@ -328,6 +328,80 @@ body {
   }
 }
 
+.my-tag-item-blue {
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  padding: 1px 5px;
+  font-size: 15px;
+  
+  text-decoration: none;
+  border: 1px solid mix(#000, $border-color, 25%);
+  border-radius: $border-radius;
+  background-color: rgb(57, 192, 245);
+  color: rgb(255, 255, 255);
+  &:hover {
+
+    background-color: rgb(24, 99, 129);
+  }
+  &:visited {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.my-tag-item-green {
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  padding: 1px 5px;
+  font-size: 15px;
+  
+  text-decoration: none;
+  border: 1px solid mix(#000, $border-color, 25%);
+  border-radius: $border-radius;
+  background-color: rgb(19, 138, 7);
+  color: rgb(255, 255, 255);
+  &:hover {
+
+    background-color: rgb(12, 87, 5);
+  }
+  &:visited {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.my-tag-item-orange {
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  padding: 1px 5px;
+  font-size: 15px;
+  
+  text-decoration: none;
+  border: 1px solid mix(#000, $border-color, 25%);
+  border-radius: $border-radius;
+  background-color: rgb(235, 148, 34);
+  color: rgb(255, 255, 255);
+  &:hover {
+
+    background-color: rgb(153, 99, 28);
+  }
+  &:visited {
+    color: rgb(255, 255, 255);
+  }
+}
+.my-link {
+  text-decoration: none;
+  color: rgb(34, 40, 49);
+  &:hover {
+
+    text-decoration: underline;
+  }
+  &:visited {
+    color: rgb(34, 40, 49);
+  }
+}
+
 .taxonomy__section {
   margin-bottom: 2em;
   padding-bottom: 1em;

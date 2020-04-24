@@ -1,0 +1,21 @@
+---
+layout: archive
+---
+
+
+    {% for post in site.posts  %}
+      {% if post.show and post.category=="Literature-Review" %}
+       
+        {% if page.area=="" or post.area==page.area %}
+          {% if year != written_year %}
+            <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+            {% capture written_year %}{{ year }}{% endcapture %}
+          {% endif %}
+          <div class="post__wrapper">
+            {% include archive-single.html type="post" %}
+          </div>
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+

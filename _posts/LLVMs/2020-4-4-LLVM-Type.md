@@ -1,0 +1,100 @@
+---
+title: "LLVM 快速入门"
+header:
+  teaser: "https://llvm.org/img/DragonMedium.png"
+tags:
+  - LLVM
+  - Compiler
+author_profile: false
+
+nav:
+  - title: Getting Started
+    children:
+      - title: "Page1"
+        url: /notes/SampleCollection/
+      - title: "Page2"
+        url: "#前言"
+  - title: Customization
+
+
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-sample
+# toc: true
+# toc_sticky: true
+classes: wide
+show: false
+related: false
+read_time: false
+showmeta: false
+share: false
+---
+
+
+# 前言
+这个笔记是关于将AST通过LLVM的API转换成IR的。并不包含如何构建AST。
+
+## 类型
+一般的编程语言的数据类型可以分为 `浮点数` `整数` `字符串` `布尔`,\
+其他的类型基本上都是这些类型在不同储存体积上的变形。 
+
+表达式AST的基本返回值是`llvm::Value*`
+### 浮点
+
+``` cpp
+llvm::Value* NumberConst::Gen(){
+		return ConstantFP::get(TheContext, APFloat(value));
+}
+```
+
+### 整数
+
+```cpp
+llvm::Value* Integer::Gen(){
+		const auto int_type=IntegerType::get(TheContext, 16);
+		return ConstantInt::get(int_type, value);
+}
+```
+### 布尔
+布尔用(1比特)整数表示
+``` cpp
+llvm::Value* Boolean::Gen(){
+		const auto bool_type=IntegerType::get(TheContext, 1);
+		return ConstantInt::get(bool_type, value);
+}
+```
+可以把`true`和`false`在编译器中定义为常量
+``` cpp
+llvm::Value* CodeGen::True  = llvm::ConstantInt::get(llvm::IntegerType::get(CodeGen::the_context, 1), 1);
+llvm::Value* CodeGen::False = llvm::ConstantInt::get(llvm::IntegerType::get(CodeGen::the_context, 1), 0);
+```
+
+### 字符串
+字符串的类型为 i8* 也就是8比特整数的指针。
+编译器应将代码中的字符串储存为常量。
+``` cpp
+llvm::Value* String::Gen() {
+        return CodeGen::builder.CreateGlobalStringPtr(llvm::StringRef(value));
+}
+```
+
+
+
+
+## 变量
+### 局部变量
+
+### 全局变量
+
+
+## 类型转换
+
+## 表达式操作符
+
+## 定义函数
+
+## 调用函数
+
+## 一般运行时报错
+### call with bad signature
+检测参数类型是否匹配

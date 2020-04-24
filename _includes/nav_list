@@ -20,11 +20,25 @@
         {% if nav.children != null %}
         <ul>
           {% for child in nav.children %}
-            {% if child.url contains "#" %}
-            <li><a href="{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
-            {% else %}
-            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+
+              {% if child.url contains "#" %}
+              <li><a href="{{ child.url }}" class="{{ active }}"><strong> {{ child.title }}</strong></a></li>
+              {% else %}
+              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}> <strong> {{ child.title }}</strong></a></li>
+              {% endif %}
+
+            {% if child.children != null %}
+              {% for c in child.children %}
+
+                  {% if c.url contains "#" %}
+                  <li><a href="{{ c.url }}" class="{{ active }}">{{ c.title }}</a></li>
+                  {% else %}
+                  <li><a href="{{ c.url | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ c.title }}</a></li>
+                  {% endif %}
+
+              {% endfor %}
             {% endif %}
+
           {% endfor %}
         </ul>
         {% endif %}

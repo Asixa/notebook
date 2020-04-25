@@ -23,7 +23,7 @@ share: false
 ---
 
 # Writing logic
-{% mermaid %}
+<div class="mermaid">
 graph TD;
     Three-Pass-Apporach -->First-pass;
     Three-Pass-Apporach -->Second-pass;
@@ -31,7 +31,8 @@ graph TD;
     First-pass -->Literature-Survery;
     Second-pass -->Literature-Survery;
     Third-pass -->Literature-Survery;
-{% endmermaid %}
+</div>
+
 
 # Summary
 ## Three-pass approach.

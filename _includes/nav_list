@@ -34,7 +34,7 @@
                     {% for c in page.pagenav %}
                          
 
-                        <li><a href="{{ c.url }}" class="{{ active }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {{ c.title }}</a></li>
+                        <li><a href="#{{ c.title }}" class="{{ active }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {{ c.title }}</a></li>
 
                     {% endfor %}
                   {% endif %}

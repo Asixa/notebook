@@ -18,18 +18,22 @@ layout: default
 
 <div >
   <div class="row">
-  <iframe id='pdf' src="{{page.pdf}}" class="sticky "   width="100%"></iframe>
+  <!-- <iframe id='pdf' src="/pdf?file=https://cors-anywhere.herokuapp.com/{{page.pdf}}" class="sticky "   width="100%"></iframe> -->
+  <embed id='pdf' src="{{page.pdf}}" class="sticky "   width="100%">
   
   <script>document.getElementById("pdf").height=screen.height
       document.getElementById("pdf").offset().top;
       document.onresize = function(){document.getElementById("pdf").height=screen.height}
   </script>
+ 
   <article class="page p-h" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
     
+    {% if page.sidebar %}<div class="row"> {% endif %}
+
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
@@ -45,6 +49,7 @@ layout: default
     
 
       <section class="page__content" itemprop="text">
+        
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
@@ -75,11 +80,18 @@ layout: default
       <!-- {% include post_pagination.html %} -->
     </div>
 
+    {% if page.sidebar %}
+        <div class="p-left">
+        {% include sidebar.html %}
+      </div>
+    </div>
+    {% endif %}
+
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
   </article>
- 
+
 </div>
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}

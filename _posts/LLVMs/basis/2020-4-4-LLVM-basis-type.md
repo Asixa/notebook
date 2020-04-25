@@ -13,13 +13,9 @@ sidebar:
 
 pagenav:
   - title: "浮点"
-    url: "#浮点"
   - title: "整数"
-    url: "#整数"
   - title: "布尔"
-    url: "#布尔"
   - title: "字符串"
-    url: "#字符串"
 
 
 # toc: true

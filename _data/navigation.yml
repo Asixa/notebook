@@ -55,6 +55,8 @@ computer_science_areas:
     #   - title: "Child Page B1"
     #     url: /
   - title: "Deep Learning"
+
+  - title: "Others"
     # children:
     #   - title: "Child Page B1"
     #     url: /

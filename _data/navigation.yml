@@ -58,3 +58,49 @@ computer_science_areas:
     # children:
     #   - title: "Child Page B1"
     #     url: /
+
+
+
+nav-LLVM:
+  - title: 准备
+    children:
+      - title: AST结构
+        url: /code/LLVM-prepare-ast/
+      - title: 配置LLVM
+        url: /code/LLVM-prepare-config/
+  - title: 基础
+    children:
+      - title: 数据类型
+        url: /code/LLVM-basis-type/
+      - title: 函数
+        url: /code/LLVM-basis-functions/
+      - title: 运算符
+        url: /code/LLVM-basis-operators/
+      - title: 逻辑控制
+        url: /code/LLVM-basis-control-flow/
+      - title: 类与结构体
+        url: /code/LLVM-basis-classes/
+  - title: 进阶
+    children:
+      - title: 容器
+        url: /code/LLVM-advanced-containers/
+      - title: 泛型
+        url: /code/LLVM-advanced-generic/
+      - title: Lambda
+        url: /code/LLVM-advanced-lambda/
+  - title: 额外内容
+    children:
+      - title: 自动微分
+        url: /code/LLVM-extra-differentiable/
+      - title: GPU
+        url: /code/LLVM-extra-gpu/
+  - title: 容易遇到的坑
+    children:
+      - title: LLVM报错
+        url: /code/LLVM-error-prone-llvm/
+      - title: 常见问题
+        url: /code/LLVM-error-prone-mistakes/
+  - title: 收尾
+    children:
+    - title: "编译"
+      url: /code/LLVM-finish-compile/

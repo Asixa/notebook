@@ -25,13 +25,28 @@
               <li><a href="{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
               {% else %}
               <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}> {{ child.title }}</a></li>
+         
+                {% if child.url == page.url %}
+           
+                  {% if page.pagenav != null %}
+                     
+
+                    {% for c in page.pagenav %}
+                         
+
+                        <li><a href="{{ c.url }}" class="{{ active }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {{ c.title }}</a></li>
+
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+
               {% endif %}
 
             {% if child.children != null %}
               {% for c in child.children %}
 
                   {% if c.url contains "#" %}
-                  <li><a href="{{ c.url }}" class="{{ active }}">{{ c.title }}</a></li>
+                  <li><a href="{{ c.url }}" class="{{ active }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ c.title }}</a></li>
                   {% else %}
                   <li><a href="{{ c.url | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ c.title }}</a></li>
                   {% endif %}

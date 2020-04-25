@@ -6,33 +6,32 @@ tags:
   - LLVM
   - Compiler
 author_profile: false
-
-nav:
-  - title: Getting Started
-    children:
-      - title: "Page1"
-        url: /notes/SampleCollection/
-      - title: "Page2"
-        url: "#前言"
-  - title: Customization
-
-
+category: Code
 sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample
+  title: "目录"
+  nav: nav-LLVM
+
+pagenav:
+  - title: "浮点"
+    url: "#浮点"
+  - title: "整数"
+    url: "#整数"
+  - title: "布尔"
+    url: "#布尔"
+  - title: "字符串"
+    url: "#字符串"
+
+
 # toc: true
 # toc_sticky: true
 classes: wide
-show: false
+hidden: true
 related: false
 read_time: false
 showmeta: false
 share: false
 ---
 
-
-# 前言
-这个笔记是关于将AST通过LLVM的API转换成IR的。并不包含如何构建AST。
 
 ## 类型
 一般的编程语言的数据类型可以分为 `浮点数` `整数` `字符串` `布尔`,\
@@ -43,15 +42,18 @@ share: false
 
 ``` cpp
 llvm::Value* NumberConst::Gen(){
-		return ConstantFP::get(TheContext, APFloat(value));
+		return ConstantFP::get(CodeGen::the_context, APFloat(value));
 }
 ```
 
 ### 整数
-
+根据不同的整数类型，位长度取不同的值。
+`short` 取 8,
+`int` 取 16,
+`long` 取 32。
 ```cpp
 llvm::Value* Integer::Gen(){
-		const auto int_type=IntegerType::get(TheContext, 16);
+		const auto int_type=IntegerType::get(CodeGen::the_context, bit_length);
 		return ConstantInt::get(int_type, value);
 }
 ```
@@ -59,14 +61,16 @@ llvm::Value* Integer::Gen(){
 布尔用(1比特)整数表示
 ``` cpp
 llvm::Value* Boolean::Gen(){
-		const auto bool_type=IntegerType::get(TheContext, 1);
+		const auto bool_type=IntegerType::get(CodeGen::the_context, 1);
 		return ConstantInt::get(bool_type, value);
 }
 ```
 可以把`true`和`false`在编译器中定义为常量
 ``` cpp
-llvm::Value* CodeGen::True  = llvm::ConstantInt::get(llvm::IntegerType::get(CodeGen::the_context, 1), 1);
-llvm::Value* CodeGen::False = llvm::ConstantInt::get(llvm::IntegerType::get(CodeGen::the_context, 1), 0);
+llvm::Value* CodeGen::True  = 
+      llvm::ConstantInt::get(llvm::IntegerType::get(CodeGen::the_context, 1), 1);
+llvm::Value* CodeGen::False = 
+      llvm::ConstantInt::get(llvm::IntegerType::get(CodeGen::the_context, 1), 0);
 ```
 
 ### 字符串
@@ -77,24 +81,6 @@ llvm::Value* String::Gen() {
         return CodeGen::builder.CreateGlobalStringPtr(llvm::StringRef(value));
 }
 ```
-
-
-
-
-## 变量
-### 局部变量
-
-### 全局变量
-
-
-## 类型转换
-
-## 表达式操作符
-
-## 定义函数
-
-## 调用函数
-
-## 一般运行时报错
-### call with bad signature
-检测参数类型是否匹配
+对于字符串类型，i8*指针与C语言的 `char*` 一样，只是一个raw pointer.\
+为了方便用户使用，我们可以把字符串类型制作成一个内置类。\
+对于类的定义会在后面的文章讲到。

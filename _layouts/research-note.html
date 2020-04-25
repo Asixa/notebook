@@ -16,7 +16,7 @@ layout: default
 
 <div >
   <div class="row">
-  <iframe id='pdf' src="{{page.pdf}}" class="sticky" height="200vh"  width="70%"></iframe>
+  <iframe id='pdf' src="{{page.pdf}}" class="sticky"   width="100%"></iframe>
   <script>document.getElementById("pdf").height=screen.height
       document.onresize = function(){document.getElementById("pdf").height=screen.height}
   </script>
@@ -36,7 +36,7 @@ layout: default
         </header>
       {% endunless %}
       
-      <p class="page__date "><strong></strong><i class="fas fa-fw fa-book" aria-hidden="true"></i> </strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{page.info}}</time></p>
+      <p class="page__date "><strong></strong><i class="fas fa-fw fa-book" aria-hidden="true"></i> </strong> <time datetime="{{ page.date | date_to_xmlschema }}"><a class="my-link" href="{{page.location}}">{{page.info}}</a></time></p>
 
     
 

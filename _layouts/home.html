@@ -13,9 +13,7 @@ layout: archive
 {% endif %}
 
 {% for post in posts %}
-{% if post.show %}
   {% include archive-single.html type="post" %}
-  {% endif %}
 {% endfor %}
 
 {% include paginator.html %}

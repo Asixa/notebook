@@ -4,7 +4,7 @@ layout: archive
 
 
     {% for post in site.posts  %}
-      {% if post.show and post.category=="Literature-Review" %}
+      {% if  post.category=="Literature-Review" %}
        
         {% if page.area=="" or post.area==page.area %}
           {% if year != written_year %}

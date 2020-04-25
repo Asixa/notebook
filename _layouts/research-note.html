@@ -14,10 +14,14 @@ layout: default
   {% endunless %}
 {% endif %}
 
+
+
 <div >
   <div class="row">
-  <iframe id='pdf' src="{{page.pdf}}" class="sticky"   width="100%"></iframe>
+  <iframe id='pdf' src="{{page.pdf}}" class="sticky "   width="100%"></iframe>
+  
   <script>document.getElementById("pdf").height=screen.height
+      document.getElementById("pdf").offset().top;
       document.onresize = function(){document.getElementById("pdf").height=screen.height}
   </script>
   <article class="page p-h" itemscope itemtype="https://schema.org/CreativeWork">

@@ -73,11 +73,22 @@ llvm_map_components_to_libnames(llvm_libs support core irreader bitwriter)
 完整CMakeLists可以在[这里]()查看。
 
 ## 项目配置
-```
-llvm::LLVMContext CodeGen::the_context;
-std::unique_ptr<llvm::Module> CodeGen::the_module = std::make_unique<llvm::Module>("Program", CodeGen::the_context);
-llvm::IRBuilder<> CodeGen::builder(CodeGen::the_context);
 
+在命名空间`CodeGen`下创建三个对象:`the_context`,`the_module`和`builder`。\\
+这三个对象是生成IR所必须的。\\
+`the_context`为当前代码的上下文, `the_module`当前代码的模块,`builder`是指令写入器。
+
+和两个符号表：\\
+`fields_table` 用来记录当前作用域能够访问到的字段。\\
+`type_table` 用来记录已经声明的类型, 这里的字典的值类型是`ClassDecl` AST节点, 原因会在后面讲到。
+```cpp
+//#include "llvm/IR/LLVMContext.h"
+//#include "llvm/IR/Module.h"
+llvm::LLVMContext CodeGen::the_context;
+std::unique_ptr<llvm::Module> CodeGen::the_module 
+      = std::make_unique<llvm::Module>("Program", CodeGen::the_context);
+llvm::IRBuilder<> CodeGen::builder(CodeGen::the_context);
+// Symbol Table
 std::map<std::string, llvm::Value*> CodeGen::fields_table;
 std::map<std::string, parser::ClassDecl*> CodeGen::types_table;
 ```

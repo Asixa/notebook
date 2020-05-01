@@ -1,3 +1,39 @@
 <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
+
+<script>
+    // GitHubCalendar(".calendar", "your-username");
+    // // or enable responsive functionality
+    if(document.getElementById('calendar')){
+        GitHubCalendar(".calendar", "asixa", { responsive: true, summary_text:" ",global_stats:false});
+        document.getElementById("calendar").style.minHeight = "150px;"
+
+        
+
+        function showTooltip(evt, text) {
+            let tooltip = document.getElementById("tooltipz");
+            tooltip.innerHTML = text;
+            tooltip.style.display = "block";
+            tooltip.style.left = evt.pageX + 10 + 'px';
+            tooltip.style.top = evt.pageY + 10 + 'px';
+        }
+
+        function hideTooltip() {
+            var tooltip = document.getElementById("tooltipz");
+            tooltip.style.display = "none";
+        }
+        document.addEventListener("DOMContentLoaded", function(e) {
+            var x = document.getElementsByClassName("day");
+            l = x.length;
+            for (i = 0; i < l; i++) {
+           
+            var d=x[i]
+            // d.classList.add('tooltip')
+            d.setAttribute("onmousemove","showTooltip(evt, '"+d.getAttribute('data-count')+" contribution"+(d.getAttribute('data-count')=="1"?"":"s")+" on "+d.getAttribute('data-date')+"');")
+            d.setAttribute("onmouseout","hideTooltip();")
+            // d.innerHTML+=" <title>"+d.getAttribute('data-count')+" contribution"+(d.getAttribute('data-count')=="1"?"":"s")+" on "+d.getAttribute('data-date')+"</title>"
+            }
+        });
+    }
+</script>
